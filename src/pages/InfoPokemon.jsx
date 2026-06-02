@@ -20,7 +20,7 @@ const InfoPokemon = () => {
     return () => {
       leerInfoPokemon()
     }
-  }, [])
+  }, [pokemonSeleccionado])
 
 
   const pokemonTypesColors = {
